@@ -1,0 +1,3 @@
+[submodule "simpeg-brin"]
+	path = simpeg-brin
+	url = https://gitlab.brin.go.id/brinrockstar/simpeg-brin-v3-backend.git

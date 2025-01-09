@@ -1,0 +1,15 @@
+services:
+  simpeg_brin:
+    build:
+      context: .
+      dockerfile: Dockerfile-dev-simpeg-brin
+    ports:
+      - 81:80
+    volumes:
+      - ./simpeg-brin:/var/www
+      - ./simpeg-brin/public:/var/www/html
+  redis:
+    container_name: redis 
+    image: redis
+    ports:
+      - 6379:6379
