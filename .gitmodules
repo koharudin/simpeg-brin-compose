@@ -1,3 +1,10 @@
 [submodule "simpeg-brin"]
 	path = simpeg-brin
 	url = https://gitlab.brin.go.id/brinrockstar/simpeg-brin-v3-backend.git
+[submodule "simpeg-brin-temp"]
+	path = simpeg-brin-temp
+	url = https://gitlab.brin.go.id/brinrockstar/simpeg-brin-temp.git
+[submodule "siap_fe"]
+	path = siap_fe
+	url = https://github.com/koharudin/siap-fe.git
+	branch = main
